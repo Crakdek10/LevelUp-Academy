@@ -723,7 +723,7 @@ p, span{
   }
 }
 
-.testimonios-section, .valor, .text-content, .servicio, .cursos-section, .texto-nosotros, .testimonial{
+.testimonios-section, .valor, .text-content, .servicio, .curso, .texto-nosotros, .testimonial{
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 35%;
