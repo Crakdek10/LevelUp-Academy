@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f4f4f4;
@@ -6,7 +5,6 @@ body {
   padding: 0;
 }
 
-/* Estilos para el header */
 .section-header {
   background-color: #0056b3;
   padding: 5px 0;
@@ -36,7 +34,6 @@ body {
   font-size: 2rem;
 }
 
-/* Estilos para la sección de cursos */
 .texto-cursos {
   padding: 15px 20px 50px;
   text-align: center;
@@ -54,7 +51,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Estilos para el select (lenguages) */
+
 .lenguages {
   padding: 10px 20px;
   font-size: 1rem;
@@ -62,7 +59,7 @@ body {
   border-radius: 25px;
   background-color: white;
   color: #333;
-  appearance: none; /* Elimina el estilo por defecto del select */
+  appearance: none;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%230056b3"><path d="M7 10l5 5 5-5z"/></svg>');
   background-repeat: no-repeat;
   background-position: right 10px center;
@@ -82,7 +79,6 @@ body {
   box-shadow: 0 0 12px rgba(0, 86, 179, 0.5);
 }
 
-/* Estilos para el input de búsqueda */
 #search {
   padding: 10px 20px;
   font-size: 1rem;
@@ -108,7 +104,6 @@ body {
   box-shadow: 0 0 12px rgba(0, 86, 179, 0.5);
 }
 
-/* Estilos para la sección de servicios */
 .servicios-section {
   padding: 20px;
 }
@@ -154,7 +149,6 @@ body {
   color: #666;
 }
 
-/* Estilos para el servicio-plus */
 .servicio-plus {
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -170,9 +164,9 @@ body {
 }
 
 .enlace-servicio {
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  color: inherit; /* Hereda el color del texto */
-  display: block; /* Hace que el enlace ocupe todo el espacio del servicio */
+  text-decoration: none; 
+  color: inherit; 
+  display: block; 
 }
 
 .icono-cruz {
